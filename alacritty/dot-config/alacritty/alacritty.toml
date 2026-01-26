@@ -1,0 +1,11 @@
+[general]
+import = ["~/.config/alacritty/themes/themes/catppuccin_mocha.toml"]
+
+
+[font]
+normal = { family = "MesloLGM Nerd Font", style = "Regular" }
+
+[window]
+
+blur = true
+opacity = 0.6
