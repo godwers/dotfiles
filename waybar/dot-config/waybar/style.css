@@ -1,0 +1,37 @@
+@import "mocha.css";
+
+*{
+  font-size: 13px;
+  font-family: MesloLGS Nerd Font;
+}
+
+#waybar{
+  background: transparent;
+  border: none;
+  color: @mantle;
+}
+
+#workspaces,
+#clock,
+#pulseaudio,
+#hardware{
+  color: @text;
+  background: @base;
+  border: 1.5px solid @lavender;
+  border-radius: 15px;
+}
+#custom-power{
+  color: black;
+  background: @blue;
+  background-position: center;
+  border: 1.5px transparent;
+  border-radius: 15px;
+  font-size: 15px;
+}
+#workspaces button{
+  border-radius: 15px;
+  color: @surface0;
+}
+#workspaces button.active{
+  color: @text;
+}
