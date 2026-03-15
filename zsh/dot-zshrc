@@ -18,6 +18,7 @@ unsetopt autocd beep notify
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/godwers/.zshrc'
+zstyle ':antidote:compatibility-mode' 'antibody' 'on'
 
 autoload -Uz compinit
 compinit
@@ -28,7 +29,7 @@ compinit
 
 # Alias 
 alias ls='ls --color=auto'
-
+alias grep='grep --color=auto'
 
 # shellcheck shell=bash
 
@@ -177,3 +178,5 @@ fi
 # To initialize zoxide, add this to your shell configuration file (usually ~/.zshrc):
 eval "$(zoxide init zsh)"
 # =============================================================================
+# Using zoxide instead of cd
+alias cd='z'
