@@ -37,7 +37,6 @@ require("lazy").setup({
 			{ "mason-org/mason.nvim", opts = {}, },
 			{ "mason-org/mason-lspconfig.nvim", opts = {} },
 		  },
-
 	  },
 	  {
 		"nvim-tree/nvim-web-devicons",
