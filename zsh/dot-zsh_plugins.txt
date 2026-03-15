@@ -1,0 +1,7 @@
+# Adding powerlevel10k theme
+romkatv/powerlevel10k
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-completions
+# rupa/z
+jeffreytse/zsh-vi-mode
