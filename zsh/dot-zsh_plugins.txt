@@ -5,3 +5,5 @@ zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-completions
 # rupa/z
 jeffreytse/zsh-vi-mode
+# lincheney/fzf-tab-completion
+Aloxaf/fzf-tab

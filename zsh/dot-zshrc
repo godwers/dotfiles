@@ -31,6 +31,7 @@ compinit
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+export EDITOR="/usr/bin/nvim"
 # shellcheck shell=bash
 
 # =============================================================================
@@ -180,3 +181,5 @@ eval "$(zoxide init zsh)"
 # =============================================================================
 # Using zoxide instead of cd
 alias cd='z'
+
+
